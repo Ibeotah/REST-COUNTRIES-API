@@ -1,0 +1,40 @@
+.detailContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; 
+  
+  
+  background-color: hsl(0, 0%, 98%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  min-height: 600px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: Nunito Sans;
+  min-height: 100vh;
+}
+.alert_container{
+  height: 100vh;
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader_container{
+  height: 100vh;
+  background-color: hsl(0, 0%, 98%);
+}
+.loader{
+  position: fixed;
+  left: 50px;
+  top: 100px
+}
+.borderLoader{
+  display: inline; 
+}
+.borderLoader{
+  margin-left: 4px;
+}
